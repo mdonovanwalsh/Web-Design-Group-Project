@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Feedback</title>
+
+  <style>
+
+/* body {
+    height: 953px;
+} */
+
+body {
+    background-color: white;
+}
+#header {
+    border: solid whitesmoke;
+    background-color: lightseagreen;
+    font-size: 3em;
+    font-family: "papyrus";
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    padding-top: 20px;
+}
+#header img{
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 70px;
+    padding-right: 15px;
+}
+#nav {
+    border: solid thin whitesmoke;
+    background-color: lightseagreen;
+    border-radius: 4px;
+    width: 12%;
+    float: left;
+    font-size: 2em;   
+    font-family: papyrus;
+    font-weight: bold;
+    padding: 12px 24px;
+    line-height: 1.5em;
+    padding-right: 60px;
+}
+#categories {
+    border-bottom: solid whitesmoke;
+    border-right: solid thin whitesmoke;
+}
+#categories a:link {
+    color: black;
+    text-decoration: none;
+}
+#nav a:link {
+    color: lightsalmon;
+    text-decoration: none;
+}
+#nav a:hover {
+    color: whitesmoke;
+}
+
+.maincontent{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    width: 79%;
+    padding-left: 20px;
+    border-collapse: collapse;
+    border: solid thin lightseagreen;
+
+}
+
+#section1{
+font-size: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#section2{
+font-size: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#section3{
+font-size: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#section4{
+    padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#textbox{
+    width: 90%;
+}
+
+#section5{
+font-size: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#section6{
+font-size: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#section8{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer {
+    background-color: lightseagreen;
+    border: solid whitesmoke;
+    font-size: 1.5em;
+    font-family: "papyrus";
+    font-weight: bold;
+    margin-top: 20px;
+    clear: both;
+    overflow: auto;
+
+}
+#footer div {
+    width: 33.33%;
+    float: left;
+}
+#footer div:first-child {
+    text-align: left;
+}
+#footer div:nth-child(2) {
+    text-align: center;
+}
+#footer div:nth-child(3) {
+    text-align: right;
+}
+
+  </style>
+</head>
+<body>
+    <div id="header">Feedback
+        <img src="Images/logo.png" alt="logo">
+    </div>
+    <div id="nav">
+        <div id="home"><a href="homepage.html">Home</div></a> 
+        <div id="categories">Categories</div></a>
+            <ul class="list">
+                <li><a href="fish.html">Fish</li></a> 
+                <li><a href="amphibians.html">Amphibians</li></a> 
+                <li><a href="reptiles.html">Reptiles</li></a> 
+                <li><a href="mammals.html">Mammals</li></a> 
+                <li><a href="birds.html">Birds</li></a>
+            </ul>
+            <div><a href="feedback.html">Feedback</a></div>
+    </div>
+<form>
+    <div class="maincontent">
+        <div id="section1">Please provide your feedback below:</div>
+        <div id="section2">How do you rate your overall experience?</div>
+        <div id="section3">
+            <input type="radio" id="bad" name="bad">
+            <label for="bad">Bad</label>
+            <input type="radio" id="average" name="average">
+            <label for="average">Average</label>
+            <input type="radio" id="good" name="good">
+            <label for="good">Good</label>
+        </div>
+        <div id="section3">Comments:</div>
+        <div id="section4">
+            <input type="text" id="textbox" placeholder="Place comments here..." size="50"> 
+        </div>
+        <div id="section5">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div id="section6">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div id="section7">
+            <button type="submit" name="submit">Submit</button>
+        </div>
+        <div id="section8">Thank you for your feedback!</div>
+    </div>
+</form>
+</div>
+<div id="footer">
+<div>Graeme Mackay & Mackenzie Donovan-Walsh</div>
+<div>Web Design</div>
+<div>October 22th, 2021</div>
+</div>
+
+</body>
+</html>

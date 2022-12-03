@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Homepage</title>
+
+  <style>
+
+body {
+    height: 953px;
+}
+body {
+    background-image: lightseagreen;
+}
+#header {
+    border: solid whitesmoke;
+    background-color: lightseagreen;
+    font-size: 3em;
+    font-family: "papyrus";
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 75px;
+    width: 100%;
+    padding-top: 20px;
+}
+#header img{
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 70px;
+    padding-right: 15px;
+    background-size: cover;
+}
+#nav {
+    border: solid thin whitesmoke;
+    background-color: lightseagreen; 
+    border-radius: 4px;
+    width: 12%;
+    float: left;
+    font-size: 2em;   
+    font-family: papyrus;
+    font-weight: bold;
+    padding: 12px 24px;
+    line-height: 1.5em;
+    padding-right: 60px;
+    margin-right: 40px;
+}
+#categories {
+    border-bottom: solid whitesmoke;
+    border-right: solid thin whitesmoke;
+}
+#categories a:link {
+    color: black;
+    text-decoration: none;
+}
+#nav a:link {
+    color: lightsalmon;
+    text-decoration: none;
+}
+#nav a:hover {
+    color: whitesmoke;
+}
+.card a:link {
+    color: black;
+    text-decoration: none;
+}
+.card a:hover {
+    color: whitesmoke;
+}
+.container {
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    margin-right: 220px;
+}
+.card {
+    background-color: lightseagreen;
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid whitesmoke;
+}
+
+.title {
+    font-size: 2em;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+#footer {
+    background-color: lightseagreen; 
+    border: solid whitesmoke;
+    font-size: 1.5em;
+    font-family: "papyrus";
+    font-weight: bold;
+    margin-top: 20px;
+    clear: both;
+    overflow: auto;
+}
+#footer div {
+    width: 33.33%;
+    float: left;
+}
+#footer div:first-child {
+    text-align: left;
+}
+#footer div:nth-child(2) {
+    text-align: center;
+}
+#footer div:nth-child(3) {
+    text-align: right;
+}
+  </style>
+
+</head>
+
+<body>
+    <div id="header">Homepage
+        <img src="Images/logo.png" alt="logo">
+    </div>
+
+    <div id="nav">
+        <div id="home"><a href="homepage.html">Home</div></a> 
+        <div id="categories">Categories</div></a>
+            <ul class="list">
+                <li><a href="fish.html">Fish</li></a> 
+                <li><a href="amphibians.html">Amphibians</li></a> 
+                <li><a href="reptiles.html">Reptiles</li></a> 
+                <li><a href="mammals.html">Mammals</li></a> 
+                <li><a href="birds.html">Birds</li></a>
+            </ul>
+            <div><a href="feedback.html">Feedback</a></div>
+    </div>
+
+       
+    <div class="container">
+        <div class="card">
+            <img src="/Images/fishcategory.jpg" alt="image of fish">
+            <div class="title"><a href="fish.html">Fish</div></a>
+        </div>
+
+        <div class="card">
+            <img src="/Images/amphibianscategory.jpg" alt="image of amphibians">
+            <div class="title"><a href="amphibians.html">Amphibians</div></a>
+        </div>
+
+        <div class="card">
+            <img src="/Images/reptilescategory.jpg" alt="image of reptiles">
+            <div class="title"><a href="reptiles.html">Reptiles</div></a>
+        </div>
+        <div class="card">
+            <img src="/Images/mammalscategory.jpg" alt="image of mammals">
+            <div class="title"><a href="mammals.html">Mammals</div></a> 
+        </div>
+        <div class="card">
+            <img src="/Images/birdscategory.jpg" alt="image of birds">
+            <div class="title"><a href="birds.html">Birds</div></a> 
+        </div>
+    </div>
+
+    <div id="footer">
+        <div>Graeme Mackay & Mackenzie Donovan-Walsh</div>
+        <div>Web Design</div>
+        <div>October 22th, 2021</div>
+    </div>
+
+
+</body>
+</html>

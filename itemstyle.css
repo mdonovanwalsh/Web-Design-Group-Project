@@ -1,0 +1,137 @@
+body {
+    height: 953px;
+}
+/* body {
+    background-image: lightseagreen;
+} */
+#header {
+    border: solid whitesmoke;
+    background-color: lightseagreen;
+    font-size: 3em;
+    font-family: "papyrus";
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#header img{
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 70px;
+    padding-right: 15px;
+    background-size: cover;
+}
+
+#nav {
+    border: solid thin whitesmoke;
+    border-radius: 4px;
+    width: 12%;
+    float: left;
+    font-size: 2em;   
+    font-family: papyrus;
+    font-weight: bold;
+    padding: 12px 24px;
+    line-height: 1.5em;
+    margin-right: 50px;
+    padding-right: 65px;
+    background-color: lightseagreen;
+
+}
+#categories {
+    border-bottom: solid whitesmoke;
+    border-right: solid thin whitesmoke;
+}
+#categories a:link {
+    color: black;
+    text-decoration: none;
+}
+#nav a:link {
+    color: lightsalmon;
+    text-decoration: none;
+}
+#nav a:hover {
+    color: whitesmoke;
+}
+.container {
+    margin-left: 100px;
+    float: left;
+}
+.card {
+    background-color: lightseagreen;
+    width: 475px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid whitesmoke;
+}
+.title {
+    font-size: 2em;
+}
+
+.card img {
+    width: 475px;
+    height: 300px;
+
+}
+
+#summary {
+    width: 66%;  
+    font-size: 1.5em;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    word-wrap: break-word;
+
+}
+#footer {
+    background-color: lightseagreen;
+    border: solid whitesmoke;
+    font-size: 1.5em;
+    font-family: "papyrus";
+    font-weight: bold;
+    margin-top: 20px;
+    clear: both;
+    overflow: auto;
+}
+#footer div {
+    width: 33.33%;
+    float: left;
+}
+#footer div:first-child {
+    text-align: left;
+}
+#footer div:nth-child(2) {
+    text-align: center;
+}
+#footer div:nth-child(3) {
+    text-align: right;
+}
+
+#fishgradient {
+    /* background-image: linear-gradient(lightblue, darkblue); */
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#amphibiangradient {
+   /*  background-image: linear-gradient(darkgreen, saddlebrown); */
+    background-color: darkolivegreen;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#reptilegradient {
+    /* background-image: linear-gradient(darkgreen, black); */
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mammalgradient {
+    /* background-image: linear-gradient(beige, darkorange); */
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#birdgradient {
+    /* background-image: linear-gradient(lightgray, turquoise); */
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
